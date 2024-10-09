@@ -1,4 +1,14 @@
-h1{
+@font-face {
+    font-family: "monserrat";
+    src: url(Montserrat-Bold.ttf);
+}
+
+body{
+    font-family: "monserrat";
+    background-color: #f0f0f0;
+}
+
+header{
     text-align: center;
 }
 
@@ -14,4 +24,28 @@ label.data{
 .submit{
     margin-top: 10px;
     width: 100%;
+}
+
+main{
+    font-family: "monserrat";
+    background-color: #f0f0f0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+form{
+    width: 400px;
+}
+
+.submit{
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
 }
