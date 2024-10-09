@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+}
+
+fieldset{
+    margin: 10px;
+}
+
+label.data{
+    display: block;
+    padding: 3px;
+}
+
+.submit{
+    margin-top: 10px;
+    width: 100%;
+}

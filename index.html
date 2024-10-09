@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styel.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Форма</h1>
+    </header>
+
+    <main>
+        <form>
+            <fieldset>
+                <legend>Информация о пользователе</legend>
+
+                <label for="nameid" class="data">Имя</label>
+                <input name="name" id="nameid" type="text" placeholder="Введите имя" class="data">
+
+                <label for="emailid" class="data">Электронная почта</label>
+                <input name="email" id="emailid" type="email" class="data" placeholder="Введите электронную почту">
+
+                <label for="passid" class="data">Пароль</label>
+                <input name="pass" id="passid" type="password" class="data" placeholder="Введите пароль">            
+            </fieldset>
+
+            <fieldset>
+                <legend>Выберите ваш пол</legend>
+                
+                <input type="radio" id="male" name="se" value="m">
+                <label for="male">Мужской</label>
+
+                <input type="radio" id="female" name="se" value="f">
+                <label for="female">Женский</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Выбор продукта</legend>
+
+                <input type="checkbox" id="pizzaid" name="product" value="pizza">
+                <label for="pizzaid">Пицца</label>
+
+                <input type="checkbox" id="pastaid" name="product" value="pasta">
+                <label for="pastaid">Паста</label>
+
+                <input type="checkbox" id="rollsid" name="product" value="rolls">
+                <label for="rollsid">Роллы</label>
+            </fieldset>
+
+            <fieldset>
+                <select name="sale">
+                    <option value="sale">Скидка</option>
+
+                    <option value="noSale">Нет скидки</option>
+                </select>
+            </fieldset>
+
+            <input type="submit" id="submit" class="submit">
+        </form>
+    </main>
+</body>
+</html>
